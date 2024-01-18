@@ -30,14 +30,8 @@
 
 
 
-.bg {
-    /* The image used */
-    
-  
-    /* Full height */
-    height: 100%; 
-  
-    /* Center and scale the image nicely */
+.card-img{
+    height: 50rem ; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,6 +89,25 @@ header {
 .icon {
     background-color: #f0ede9;
 }
+
+.home-online{
+    position: relative;
+    background: rgb(7, 7, 11);
+}
+
+.home-online-1{
+    width: 40%;
+    height: 100%;
+}
+
+.home-online-2{
+    position: absolute;
+    width: 25%;
+    right: 10%;
+
+}
+
+
 
 
 
