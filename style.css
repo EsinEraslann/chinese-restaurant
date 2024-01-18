@@ -7,22 +7,47 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
+    justify-content: center;
+    width: 97%;
     margin: 0 auto;
+    position: fixed;
+    z-index: 2;
+    position: fixed;
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+    background-color: #ffffff3f;
+    backdrop-filter: blur(10px);
 }
 
-.card-img {
-    filter: brightness(50%);
+.navbar-nav {
+    margin-right: 150px;
+    color: black !important;
 }
+
+.nav-link:hover{
+    color: red !important;
+}
+
+
+
+.bg {
+    /* The image used */
+    
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 .navbar-brand {
+    margin-left: 100px;
     color: red;
 }
 
-.nav-link {
-    color: white;
-}
 
 .bg-roll {
     position: absolute;
