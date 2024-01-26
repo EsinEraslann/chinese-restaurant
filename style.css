@@ -93,9 +93,13 @@ header {
     height: 300px;
     margin: 3rem 0;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    filter: brightness(70%);
 }
 
 .img-album img{
     height: 20rem;
     width: 30rem;
 }
+
