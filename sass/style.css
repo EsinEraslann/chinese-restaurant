@@ -5,38 +5,30 @@
 }
 
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 97%;
   margin: 0 auto;
   position: fixed;
   z-index: 2;
-  position: fixed;
   border-radius: 50px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
   background-color: rgba(255, 255, 255, 0.2470588235);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
 }
-
-.navbar-nav {
+.navbar .navbar-nav {
   margin-right: 150px;
-  color: black !important;
+  color: black;
 }
-
-.nav-link:hover {
-  color: red !important;
+.navbar .nav-link:hover {
+  color: #ce2111;
 }
-
-.card-img {
+.navbar .card-img {
   height: 50rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.navbar-brand {
+.navbar .navbar-brand {
   margin-left: 100px;
   color: red;
 }
@@ -50,56 +42,27 @@
   filter: brightness(60%);
 }
 
-.icons h4 {
+.icons {
   display: flex;
   justify-content: center;
-}
-
-.icons p {
-  display: flex;
-  justify-content: center;
-}
-
-.icons span {
-  display: flex;
-  justify-content: center;
-}
-
-.icon {
-  background-color: #f0ede9;
+  text-align: center;
 }
 
 .home-pics {
   width: 100%;
 }
 
-header {
+.home-header {
   padding: 5rem 0;
   background-color: #f0ede9;
 }
-
-.top-body {
+.home-header .top-body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 70px;
+  padding: 80px 70px;
   text-align: center;
 }
-
-.img-album {
-  width: 100%;
-  height: 300px;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  filter: brightness(70%);
-}
-
-.img-album img {
-  height: 20rem;
-  width: 30rem;
-}
-
 .home-header button {
   border: 0;
   background-color: #ce2111;
@@ -107,3 +70,22 @@ header {
   padding: 10px 30px;
   border-radius: 5px;
 }
+
+.home-img-album {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  filter: brightness(70%);
+}
+.home-img-album img {
+  height: 20rem;
+  width: 30rem;
+  position: relative;
+}
+.home-img-album .img-text {
+  position: absolute;
+  text-align: center;
+  top: 0;
+}/*# sourceMappingURL=style.css.map */
