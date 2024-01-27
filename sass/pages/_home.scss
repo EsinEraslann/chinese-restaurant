@@ -52,6 +52,7 @@
 .icons {
     @include m.flex-center;
     text-align: center;
+    background-color: #f0ede9;
 }
 
 .home-pics {
@@ -96,8 +97,10 @@
     }
 
     .img-text {
-        position: absolute;
+        position: relative;
         text-align: center;
-        top: 0;   
+        top: 0;  
     }
 }
+
+

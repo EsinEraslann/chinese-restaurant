@@ -46,6 +46,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  background-color: #f0ede9;
 }
 
 .home-pics {
@@ -85,7 +86,7 @@
   position: relative;
 }
 .home-img-album .img-text {
-  position: absolute;
+  position: relative;
   text-align: center;
   top: 0;
 }/*# sourceMappingURL=style.css.map */
