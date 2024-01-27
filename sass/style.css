@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 2;
+  position: fixed;
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.2470588235);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.navbar-nav {
+  margin-right: 150px;
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: red !important;
+}
+
+.card-img {
+  height: 50rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-brand {
+  margin-left: 100px;
+  color: red;
+}
+
+.bg-roll {
+  position: absolute;
+  top: 3rem;
+  width: 40%;
+  right: 0;
+  filter: sepia(20%);
+  filter: brightness(60%);
+}
+
+.icons h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.icons p {
+  display: flex;
+  justify-content: center;
+}
+
+.icons span {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  background-color: #f0ede9;
+}
+
+.home-pics {
+  width: 100%;
+}
+
+header {
+  padding: 5rem 0;
+  background-color: #f0ede9;
+}
+
+.top-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 70px;
+  text-align: center;
+}
+
+.img-album {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  filter: brightness(70%);
+}
+
+.img-album img {
+  height: 20rem;
+  width: 30rem;
+}
+
+.home-header button {
+  border: 0;
+  background-color: #ce2111;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
