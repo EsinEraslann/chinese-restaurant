@@ -54,9 +54,15 @@ body {
 }
 
 .icons {
+    padding: 3rem 10rem;
     @include m.flex-center;
     text-align: center;
+}
 
+@media only screen and (max-width: 600px) {
+    .icons {
+        padding: 3rem 5rem;
+    }
 }
 
 .home-pics {
@@ -64,13 +70,12 @@ body {
 }
 
 .home-header {
-    padding: 5rem 0;
 
     .top-body {
+        padding: 3rem 3rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 80px 70px;
         text-align: center;
     }
 
@@ -81,29 +86,51 @@ body {
         padding: 10px 30px;
         border-radius: 5px;
     }
-
 }
+
+/* .home-img-album{
+    padding: 3rem 0;
+
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+    li img{
+        width: 25rem;
+        height: 25rem;
+        position: relative;
+    }
+    span{
+        position: absolute;
+        color: white;
+        left: 0;
+    }
+} */
 
 
 .home-img-album {
-    width: 100%;
-    position: relative;
+    padding: 3rem 0;
+
+    .home-img-group {
+        img {
+            width: 100%;
+            height: 19rem;
+            position: relative;
+        }
+
+        a {
+            position: absolute;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.online{
     display: flex;
-    flex-direction: row;
-    filter: brightness(70%);
-
-    img {
-        height: 20rem;
-        width: 30rem;
-        position: relative;
-    }
-
-    .img-text {
-        position: relative;
-        text-align: center;
-        position: absolute;
-        top: 0;
-    }
+    align-items: center;
 }
 
 
@@ -112,40 +139,43 @@ body {
     flex-direction: column;
     text-align: center;
 
-    .online-body{
+    .online-body {
         display: flex;
         flex-direction: column;
-        justify-content: center;
     }
-    
 
     .online-buttons {
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-direction: column;
         gap: 15px;
 
-        button{
+        button {
             border: 0;
             border-radius: 5px;
             color: white;
             padding: 15px 0;
-            width: 50%;
+            width: 10rem;
         }
 
-        :first-child{
-            background-color: #f9014f ;
+        :first-child {
+            background-color: #f9014f;
         }
 
         :nth-child(2) {
-            background-color: #5c3dbc ;
+            background-color: #5c3dbc;
         }
 
-        :last-child{
-            background-color: #efc988 ;
+        :last-child {
+            background-color: #efc988;
         }
-
-
     }
 }
 
+.online-right{
+    img{
+        width: 100%;
+        height: auto;
+    }
+}

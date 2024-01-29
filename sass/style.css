@@ -47,23 +47,26 @@ body {
 }
 
 .icons {
+  padding: 3rem 10rem;
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .icons {
+    padding: 3rem 5rem;
+  }
+}
 .home-pics {
   width: 100%;
 }
 
-.home-header {
-  padding: 5rem 0;
-}
 .home-header .top-body {
+  padding: 3rem 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 80px 70px;
   text-align: center;
 }
 .home-header button {
@@ -74,23 +77,43 @@ body {
   border-radius: 5px;
 }
 
+/* .home-img-album{
+    padding: 3rem 0;
+
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+    li img{
+        width: 25rem;
+        height: 25rem;
+        position: relative;
+    }
+    span{
+        position: absolute;
+        color: white;
+        left: 0;
+    }
+} */
 .home-img-album {
+  padding: 3rem 0;
+}
+.home-img-album .home-img-group img {
   width: 100%;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  filter: brightness(70%);
-}
-.home-img-album img {
-  height: 20rem;
-  width: 30rem;
+  height: 19rem;
   position: relative;
 }
-.home-img-album .img-text {
-  position: relative;
-  text-align: center;
+.home-img-album .home-img-group a {
   position: absolute;
-  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.online {
+  display: flex;
+  align-items: center;
 }
 
 .online-main {
@@ -101,11 +124,11 @@ body {
 .online-main .online-body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 .online-main .online-buttons {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 15px;
 }
@@ -114,7 +137,7 @@ body {
   border-radius: 5px;
   color: white;
   padding: 15px 0;
-  width: 50%;
+  width: 10rem;
 }
 .online-main .online-buttons :first-child {
   background-color: #f9014f;
@@ -124,4 +147,13 @@ body {
 }
 .online-main .online-buttons :last-child {
   background-color: #efc988;
+}
+
+.online-right img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #253a4b;
 }/*# sourceMappingURL=style.css.map */
