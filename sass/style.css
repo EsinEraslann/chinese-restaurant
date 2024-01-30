@@ -68,6 +68,7 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 .home-header button {
   border: 0;
@@ -75,6 +76,15 @@ body {
   color: white;
   padding: 10px 30px;
   border-radius: 5px;
+  position: relative;
+}
+
+.sushi-draw {
+  position: absolute;
+  width: 30%;
+  left: 0;
+  bottom: 2rem;
+  opacity: 0.4;
 }
 
 /* .home-img-album{
